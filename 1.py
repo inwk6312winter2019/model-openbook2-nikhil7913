@@ -1,7 +1,7 @@
 def tuple_required(filename):
    fin = open(filename,'r')
    for line in fin:
-     line=line.strip()
+     line=line.split(",")
      tp=(line[2],line[3],line[6],line[7])
      print(tp)
 
